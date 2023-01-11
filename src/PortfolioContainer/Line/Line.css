@@ -1,0 +1,20 @@
+.line-container {
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 15%;
+    height: 2px;
+    border-bottom: 2px solid #000;
+}
+
+.box-container {
+    position: absolute;
+    height: 2vh;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: #B21807;
+    margin-top: 2%;
+}

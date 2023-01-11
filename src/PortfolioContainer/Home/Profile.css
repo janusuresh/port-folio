@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.profile-container {
+    min-height: fit-content;
+    background-color: #212F3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-details-name {
+    font-size: 3rem;
+}
+
+.profile-details-role {
+    height: 8vh;
+}
+
+.profile-role-tagline {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* margin-left: 0%; */
+}
+
+.profile-details {
+    padding-top: 5%;
+    margin-right: 10rem;
+}
+
+.colz {
+    padding-bottom: 0.5rem;
+    margin-right: 2rem;
+}
+
+.colz-icon>a {
+    color: white;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+
+.primary-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.primary-text1 {
+    height: 4hv;
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: white;
+}
+
+.highlighted-text {
+    color: red;
+}
+
+.profile-role-tagline {
+    color: white;
+}
+
+.profile-options {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    margin-right: 3rem;
+}
+
+button {
+    padding: 12px;
+    width: 60%;
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+.getResume>button {
+    background-color: orange;
+}
+
+.profile-details-role {
+    margin-top: 1rem;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-right: 0rem;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+
+.profile-picture-background {
+    height: 95%;
+    width: 95%;
+    background-image: url("../Assesst/Profile.JPG");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+@media screen and (max-width:900px) {
+    .profile-parent {
+        flex-direction: column-reverse;
+    }
+    .profile-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 11rem;
+    }
+    .profile-role-tagline {
+        font-size: 1rem;
+    }
+    .profile-role-tagline {
+        width: 60%;
+        margin-left: 5.5rem;
+        color: white;
+    }
+    .profile-options {
+        flex-direction: column;
+    }
+    .button1 {
+        margin-bottom: 2rem;
+    }
+    button {
+        width: 25%;
+        margin-left: 2%;
+    }
+}

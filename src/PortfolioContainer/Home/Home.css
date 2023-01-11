@@ -1,0 +1,15 @@
+.home-container {
+    height: 90vh;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #212F3C;
+    overflow: hidden;
+}
+
+@media screen and (max-width:900px) {
+    .home-container {
+        height: auto;
+    }
+}
