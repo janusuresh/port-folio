@@ -1,5 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.about-details {
+    margin-top: 3rem;
+}
+
 .about-details>h5 {
     padding: 0.6rem;
+    font-weight: 200;
     color: rgb(177, 175, 175);
     font-size: 18px;
+}
+
+.aboutme-container {
+    display: flex;
+    padding-bottom: 2px;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    width: 90%;
+    gap: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -20px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.aboutme-profile {
+    width: 50%;
+    padding: 1rem 0;
+    line-height: 1rem;
+}
+
+.aboutme-profile>img {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-details-aboutme {
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.abouts {
+    width: 85%;
+    word-wrap: wrap;
+    text-align: justify;
+}
+
+.about-span {
+    line-height: 2rem;
+}
+
+.highlighted-texts {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.list-highlights {
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+}
+
+.list-highlights>li::marker {
+    color: orange;
+}
+
+.list-highlights>li {
+    margin-top: 1rem;
+}
+
+.buttons {
+    width: 50%;
+    display: flex;
+    gap: 20%;
+    margin-left: 8rem;
+}
+
+.bt {
+    padding: 12px;
+    width: 70%;
+    border-radius: 50px;
+    border-color: transparent;
+    margin-top: 2rem;
+}
+
+.bt.getresume {
+    background-color: orange;
+}
+
+@media screen and (max-width: 1000px) {
+    .buttons {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .aboutme-container {
+        flex-direction: column;
+        overflow-x: hidden;
+        margin-top: 2rem;
+    }
+    .aboutme-profile {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .profile-details-aboutme {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .aboutme-container {
+        margin-left: 3rem;
+    }
+    .buttons {
+        flex-direction: column;
+        margin-left: 11rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .aboutme-container {
+        width: 100%;
+        margin-left: 0rem;
+        padding-bottom: 5%;
+    }
+    .profile-details-aboutme {
+        width: 95%;
+        margin-left: 3rem;
+        word-wrap: wrap;
+    }
+    .buttons {
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .profile-details-aboutme {
+        width: 100%;
+        margin-left: 1.6rem;
+    }
+    .buttons {
+        margin-left: 5rem;
+    }
 }

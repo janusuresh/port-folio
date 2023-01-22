@@ -1,0 +1,21 @@
+.flexy {
+    height: 5vh;
+    width: 5px;
+    margin-right: 1rem;
+    margin-top: -5rem;
+}
+
+#link-to-top {
+    color: orange;
+    font-size: 2rem;
+}
+
+#link-to-top:hover {
+    margin-top: -5rem;
+}
+
+@media screen and (max-width: 500px) {
+    .flexy {
+        margin-top: -1rem;
+    }
+}

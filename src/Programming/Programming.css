@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+    .parent-div {
+        margin: 0rem;
+    }
+    .education.skills {
+        margin: 0 0rem;
+        margin-top: 2rem;
+    }
+}

@@ -15,6 +15,7 @@
     width: 20%;
     align-items: center;
     justify-content: center;
-    background-color: #B21807;
+    background-color: orange;
     margin-top: 2%;
+    border-radius: 25%;
 }

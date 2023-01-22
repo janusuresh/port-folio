@@ -1,0 +1,74 @@
+.form-container {
+    line-height: 3rem;
+}
+
+.form-elements>label {
+    color: white;
+}
+
+.form-parent>input {
+    width: 90%;
+    height: 5vh;
+}
+
+.send {
+    margin-top: 1rem;
+    padding: 10px;
+    width: 20%;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-color: orange;
+}
+
+.button-content {
+    font-size: 1rem;
+}
+
+.fa-paper-plane {
+    font-size: 1rem;
+}
+
+.forms {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 800px) {
+    .form-parent>input {
+        margin: 1rem 2rem;
+        width: 150%;
+    }
+    .form-elements>label {
+        margin: 1rem 3rem;
+    }
+    .send {
+        margin-left: 4rem;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .form-elements>label {
+        margin: 1rem 2rem;
+    }
+    .form-parent>input {
+        margin: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .send {
+        width: 100%;
+    }
+    .form-elements>label {
+        margin: 1rem 1rem;
+    }
+    .form-parent>input {
+        margin: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .send {
+        width: 100%;
+    }
+}

@@ -12,7 +12,7 @@
     font-size: 2rem;
 }
 
-ul>li {
+.menu-items>a>li {
     float: left;
     text-decoration: none;
     list-style: none;
@@ -40,20 +40,28 @@ ul>li {
     display: none;
 }
 
-@media screen and (max-width:800px) {
+.menu-items>a>li:hover {
+    color: red;
+}
+
+@media screen and (max-width: 800px) {
     .menu-items {
         position: fixed;
         margin-top: 1rem;
         margin-top: 2%;
         right: -100%;
     }
-    .menu-items>li {
+    .menu-items>a>li {
         float: none;
         font-size: 1rem;
         font-weight: 400;
         padding: 5%;
         width: 100%;
         background-color: #2a3844d3;
+    }
+    .menu-items>a>li:hover {
+        border: none;
+        color: red;
     }
     .bar-toggle {
         display: block;
@@ -63,11 +71,12 @@ ul>li {
     }
     #isChecked:checked~.menu-items {
         right: 5%;
+        position: absolute;
     }
 }
 
-@media screen and (max-width:1170px) {
-    .menu-items>li {
+@media screen and (max-width: 1170px) {
+    .menu-items>a>li {
         font-size: 1.2rem;
     }
     .menu-items {
@@ -78,11 +87,11 @@ ul>li {
     }
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width: 950px) {
     .header>h2 {
         margin-left: 3%;
     }
-    .menu-items>li {
+    .menu-items>a>li {
         font-size: 1rem;
     }
     .menu-items {
@@ -90,14 +99,14 @@ ul>li {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .menu-items {
         margin-left: 10rem;
         width: 50%;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
     .menu-items {
         width: 80%;
         text-align: left;

@@ -8,3 +8,22 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 900px) {
+    .footer-container {
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-container {
+        height: 8.5vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container {
+        height: 0vh;
+        border-bottom: none;
+    }
+}

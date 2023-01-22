@@ -1,0 +1,124 @@
+.achievements {
+    width: 95%;
+    overflow: hidden;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    box-shadow: rgb(247, 237, 237) 0px 6px 24px 0px, rgb(247, 242, 242) 0px 0px 0px 1px;
+    background-color: #212f3cf1;
+    border-radius: 1%;
+}
+
+.achieves {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.achievements-div1 {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.coding-1 {
+    width: 60%;
+    height: 100%;
+    padding: 1rem 0rem;
+}
+
+.coding-1>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.coding-2 {
+    width: 40%;
+}
+
+.achievements-div {
+    margin-left: -20rem;
+}
+
+#carousel-slider {
+    border-top: 5px solid rgba(0, 0, 0, 0.425);
+    width: 1px;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.actives {
+    border-color: black;
+}
+
+.controller {
+    display: flex;
+    justify-content: center;
+}
+
+.descrip {
+    color: white;
+    text-align: initial;
+    font-size: 15px;
+    line-height: 3rem;
+}
+
+.des-btsn {
+    padding: 2.5rem 0;
+}
+
+.bts {
+    padding: 12px;
+    width: 25%;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    margin: 2rem 1rem;
+}
+
+.code {
+    background-color: orange;
+}
+
+@media screen and (max-width: 1000px) {
+    .achievements {
+        height: 48vh;
+    }
+    .coding-1 {
+        padding: 1.5rem 0rem;
+    }
+    .descrip {
+        font-size: 15px;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .achievements {
+        height: auto;
+        margin-left: 1rem;
+    }
+    .achievements-div1 {
+        flex-direction: column;
+    }
+    .coding-1 {
+        width: 100%;
+        padding: 0rem;
+    }
+    .coding-2 {
+        width: 100%;
+    }
+    .achieves {
+        width: 95%;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .achievements {
+        margin-left: 0rem;
+        width: 100%;
+    }
+}
