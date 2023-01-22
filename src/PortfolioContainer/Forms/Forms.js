@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Forms.css';
 import emailjs from '@emailjs/browser';
-import { toast } from 'react-toastify';
 export default class Forms extends Component {
   render() {
     function sendEmail(e) {
@@ -19,7 +18,7 @@ export default class Forms extends Component {
         );
     }
     function refreshpage() {
-      toast('Email send successfully');
+      alert('Email send successfully');
       window.location.reload(false);
     }
 
