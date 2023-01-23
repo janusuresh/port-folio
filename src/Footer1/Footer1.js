@@ -23,13 +23,17 @@ export default function Footer1() {
           </a>
         </ul>
         <div className="emails">
-          <span>@janupritha@gmail.com</span>
+          <span>
+            <i class="fa-solid fa-envelope"></i> janupritha@gmail.com
+          </span>
         </div>
         <div className="phonenumber">
-          <span>+91 87780-76085</span>
+          <span>
+            <i class="fa-solid fa-phone"></i> +91 87780-76085
+          </span>
         </div>
         <div className="reserved">
-          <span>@janupritha All rights reserved</span>
+          <span>&copy;Janupritha, All rights reserved.</span>
         </div>
       </div>
     </div>

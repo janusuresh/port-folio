@@ -6,7 +6,7 @@
 
 .profile-container {
     min-height: fit-content;
-    background-color: #212F3C;
+    background-color: #212f3c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@
 .profile-picture-background {
     height: 95%;
     width: 95%;
-    background-image: url("../Assesst/Profile.JPG");
+    background-image: url('../Assesst/Profile.JPG');
     background-size: cover;
     border-radius: 50%;
 }
@@ -126,7 +126,7 @@
     transition: 1s ease-out;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
     .profile-parent {
         flex-direction: column-reverse;
     }
@@ -140,7 +140,7 @@
         font-size: 1rem;
     }
     .profile-role-tagline {
-        width: 60%;
+        width: 80%;
         margin-left: 5.5rem;
         color: white;
     }
@@ -153,5 +153,11 @@
     .bt1 {
         width: 25%;
         margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile-role-tagline {
+        width: 60%;
     }
 }

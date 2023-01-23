@@ -12,9 +12,12 @@
     font-size: 2rem;
 }
 
+.menu-items>a {
+    text-decoration: none;
+}
+
 .menu-items>a>li {
     float: left;
-    text-decoration: none;
     list-style: none;
     color: white;
     margin-right: 2rem;

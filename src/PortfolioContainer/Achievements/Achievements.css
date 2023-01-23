@@ -98,7 +98,7 @@
 @media screen and (max-width: 800px) {
     .achievements {
         height: auto;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
     .achievements-div1 {
         flex-direction: column;

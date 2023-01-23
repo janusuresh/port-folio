@@ -9,7 +9,7 @@ export default function Contact() {
     <div id="contactme" className="about">
       <div className="about-details">
         <h2>Contact Me</h2>
-        <h5>Let Keep in touch</h5>
+        <h5>Let's Keep in touch</h5>
         <Line />
       </div>
       <div className="flexy-content">
@@ -53,7 +53,8 @@ export default function Contact() {
           <Arrow />
         </div>
       </div>
-      <div>
+
+      <div className="footer1-parent">
         <Footer1 />
       </div>
     </div>
