@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Forms.css';
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 export default class Forms extends Component {
   render() {
     function sendEmail(e) {
