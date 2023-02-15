@@ -11,15 +11,12 @@ export default class Forms extends Component {
         .then(
           (result) => {
             console.log(result.text);
+            alert('Email send successfully');
           },
           (error) => {
             console.log(error.text);
           }
         );
-    }
-    function refreshpage() {
-      alert('Email send successfully');
-      window.location.reload(false);
     }
 
     return (
@@ -45,9 +42,7 @@ export default class Forms extends Component {
           </div>
           <div className="button-send">
             <button className="btn btn-primary send" type="submit">
-              <span className="button-content" onClick={refreshpage}>
-                Send
-              </span>
+              <span className="button-content">Send</span>
               <i class="fa-solid fa-paper-plane"></i>
             </button>
           </div>

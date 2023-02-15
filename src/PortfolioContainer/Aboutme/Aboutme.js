@@ -28,13 +28,10 @@ export default function Aboutme() {
               <li>Full Stack Web Developer</li>
               <li>React</li>
               <li>MERN stack DEV</li>
-              <li>Full Stack Web Developer</li>
-              <li>React</li>
-              <li>MERN stack DEV</li>
             </ul>
           </div>
           <div className="buttons">
-            <a>
+            <a href="#contactme">
               <button class="btn btn-primary bt">Hire Me</button>
             </a>
             <a href="Janupritha.pdf" download="Janupritha.pdf">

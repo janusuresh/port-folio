@@ -41,9 +41,13 @@ export default function Achievements() {
                     to make live UI. PHP & MYSQL to handle and manage the data.
                   </span>
                   <div>
-                    <button className="btn btn-primary bts live">
-                      Live Demo
-                    </button>
+                    <a href="https://mykec.kongu.edu/">
+                      {' '}
+                      <button className="btn btn-primary bts live">
+                        Live Demo
+                      </button>
+                    </a>
+
                     <button className="btn btn-primary bts code">Code</button>
                   </div>
                 </div>

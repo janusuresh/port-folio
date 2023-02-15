@@ -58,7 +58,7 @@ function Profile() {
           </div>
           <div className="profile-options">
             <div className="button1">
-              <a classNme="hire-me">
+              <a className="hire-me" href="#contactme">
                 <button className="btn btn-primary bt1">Hire Me</button>
               </a>
             </div>{' '}
