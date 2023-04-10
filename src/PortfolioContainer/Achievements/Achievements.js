@@ -25,6 +25,13 @@ export default function Achievements() {
               className={action === '2' ? 'actives' : ''}
             ></div>
           </div>
+          <div onClick={(e) => setAction('3')}>
+            {' '}
+            <div
+              id="carousel-slider"
+              className={action === '3' ? 'actives' : ''}
+            ></div>
+          </div>
         </div>
 
         <div className="achievements">
@@ -78,9 +85,26 @@ export default function Achievements() {
             </div>
           )}
           {action === '3' && (
-            <div className="achievements-div3">
+            <div className="achievements-div1">
               <div className="coding-1">
-                <h4>Coding3</h4>
+                <img src={require('../Assesst/image-3.PNG')} alt="name" />
+              </div>
+              <div className="coding-2">
+                <div className="des-btsn">
+                  <span className="descrip">
+                    Fun World is an entertainment website. It contains
+                    collection of games like Typing speed, Candy Crush and
+                    Sudoku. It is developed using MERN stack.
+                  </span>
+                  <div>
+                    <a href="https://fun-world.onrender.com/">
+                      <button className="btn btn-primary bts live">
+                        Live Demo
+                      </button>
+                    </a>
+                    <button className="btn btn-primary bts code">Code</button>
+                  </div>
+                </div>
               </div>
             </div>
           )}

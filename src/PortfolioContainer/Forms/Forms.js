@@ -7,7 +7,7 @@ export default class Forms extends Component {
       e.preventDefault();
 
       emailjs
-        .sendForm('gmail', 'template_ghfss2u', e.target, 'WKkPqYSzNBFzOf10E')
+        .sendForm('gmail', 'template_g8p123k', e.target, 'WKkPqYSzNBFzOf10E')
         .then(
           (result) => {
             console.log(result.text);
